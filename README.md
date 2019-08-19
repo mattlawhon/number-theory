@@ -4,18 +4,20 @@ During the spring of my Freshman year at Columbia, I took [Number Theory and Cry
 
 The course was largely divided into two parts: an introduction to number theory and some particular cool examples which were given one to two lectures each. In the second portion of the course, we examined primes of the form: ![Magioladitis, 1](https://github.com/mattlawhon/number-theory/blob/master/img/statement.png)
 
-We call *N* convenient if, for a finite set of primes *S*, there exist ![Hagedorn, 1](https://github.com/mattlawhon/number-theory/blob/master/img/convenient.png)
+We call *N* convenient if, for a finite set of primes *S*, there exist
+
+![Hagedorn, 1](https://github.com/mattlawhon/number-theory/blob/master/img/convenient.png)
 
 To our knowledge, there are between 65 and 67 convenient numbers, and all 65 known numbers are listed in the following table: ![Hagedorn, 1](https://github.com/mattlawhon/number-theory/blob/master/img/table.png)
 
-When describing inconvenient numbers, we must generalize our methods for describing primes of this form. A central theorem to this topic is as follows, articulated by Magioladitis:
+When expounding "inconvenient" numbers, we must generalize our methods for describing primes of this form. A central theorem to this topic is as follows, articulated by Magioladitis:
 ![Magioladitis, 17](https://github.com/mattlawhon/number-theory/blob/master/img/theorem.png)
 
 ## The Problem
 The smallest "inconvenient" number is 11. Just how inconvenient is it? Quite. Before our lecture on this topic, Professor Hansen was unable to calculate f11 by traditional means. He offered the problem to our class as a bonus problem. It wasn't just any bonus problem, however, because he offered 50 points on the final to any student who could calculate f11.
 
 ## The Solution
-The program, `NumberTheoryExtraCredit.java` leverages theorem 2.1.1. in it's implementation of a brute force algorithm to search for a polynomial with all the given characteristics as f11. 
+The program, `NumberTheoryExtraCredit.java` leverages theorem 2.1.1. to efficiently implement a brute force algorithm to search for a polynomial with all the given characteristics as f11. 
 
 ## Citations
 - Magioladitis, Marios. (2004). Primes of the form x2+ ny2. The paper can be found in its entirety [here](https://www.researchgate.net/publication/228725885_Primes_of_the_form_x_2_ny_2).
