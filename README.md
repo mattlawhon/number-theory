@@ -14,7 +14,7 @@ When expounding "inconvenient" numbers, we must generalize our methods for descr
 ![Magioladitis, 17](https://github.com/mattlawhon/number-theory/blob/master/img/theorem.png)
 
 ## The Problem
-The smallest "inconvenient" number is 11. Just how inconvenient is it? Quite. Before our lecture on this topic, Professor Hansen was unable to calculate f11 by traditional means. He offered the problem to our class as a bonus problem. It wasn't just any bonus problem, however, because he offered 50 points on the final to any student who could calculate f11.
+The smallest "inconvenient" number is 11. Just how inconvenient is it? Quite. Before our lecture on this topic, Professor Hansen was unable to calculate f11 by traditional means. He offered the problem of determining f11 to our class as a bonus problem. It wasn't just any bonus problem, however, because he offered 50 points on the final to any student who could calculate f11.
 
 ## The Solution
 The program, `NumberTheoryExtraCredit.java` leverages theorem 2.1.1. to efficiently implement a brute force algorithm to search for a polynomial with all the given characteristics as f11. 
