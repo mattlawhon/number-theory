@@ -50,8 +50,8 @@ public class NumberTheoryExtraCredit {
 				primesOfOnly44.add(a);
 		}
 		System.out.println("\n"+"Primes with the proper mod 44 that are not of the form p = x^2 + 11*y^2: "+primesOfOnly44+"\n");
-//----------------------------------------------------------------------------------------------------------------------------//
 
+		//TODO: Implement list solution to k, n variables. Examine multi-result behavior. Explain relation to Eisenstein's Lemma
 		Boolean check = true;
 		int k0 = 0;
 		int k1 = 0;
@@ -67,11 +67,11 @@ public class NumberTheoryExtraCredit {
 		int lower7 = 0;
 		int upper6 = 5;
 		int lower6 = 0;
-		int upper5 = 5;
+		int upper5 = 10;
 		int lower5 = 0;
-		int upper4 = 5;
+		int upper4 = 10;
 		int lower4 = 0;
-		int upper3 = 5;
+		int upper3 = 10;
 		int lower3 = 0;
 
 		outerloop:
@@ -196,33 +196,3 @@ public class NumberTheoryExtraCredit {
 		return false;
 	}
 }
-/*
-  	public static ArrayList<Integer> getPrimeNumbers(int number) {
-		ArrayList<Integer> primeNumbers = new ArrayList<Integer>();
-		Boolean val = true;
-
-		primeNumbers.add(2);
-		primeNumbers.add(3);
-		primeNumbers.add(5);
-		for (int i = 6; i <= number; i++) {
-			for (Integer a : primeNumbers) {
-				if(i % a == 0 || 2*a > i) {
-					val = false;
-					break;
-				}
-			}
-			if (val) {
-			primeNumbers.add(i);
-			}
-		}
-		return primeNumbers;
-  	}
-
-	public static Boolean isPrime(int n) {
-		for(int i = 2; i < n; i++) {
-			if(n%i==0)
-				return false;
-		}
-		return true;
-	}
-*/
