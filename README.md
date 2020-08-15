@@ -3,13 +3,14 @@
 During the spring of my Freshman year at Columbia, I took [Number Theory and Cryptography](http://math.columbia.edu/~makisumi/courses/19s3020/) with Professor David Hansen.
 
 The course was largely divided into two parts: an introduction to number theory and some particular cool examples which were given one to two lectures each. In the second portion of the course, we examined primes of the form: ![Magioladitis, 1](https://github.com/mattlawhon/number-theory/blob/master/img/statement.png)
+#
 
 We call *N* convenient if, for a finite set of primes *S*, there exist
 
 ![Hagedorn, 1](https://github.com/mattlawhon/number-theory/blob/master/img/convenient.png)
 
 To our knowledge, there are between 65 and 67 convenient numbers, and all 65 known numbers are listed in the following table: ![Hagedorn, 1](https://github.com/mattlawhon/number-theory/blob/master/img/table.png)
-
+#
 When expounding "inconvenient" numbers, we must generalize our methods for describing primes of this form. A central theorem to this topic is as follows, articulated by Magioladitis:
 ![Magioladitis, 17](https://github.com/mattlawhon/number-theory/blob/master/img/theorem.png)
 
